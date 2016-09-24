@@ -29,6 +29,7 @@ app.on('ready', function () {
       },
       lasturl: global.slasturl
     })
+    app.quit()
   })
 
   ipcMain.on('songChange', function (event, str) {
