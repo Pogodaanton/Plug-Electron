@@ -1,0 +1,10 @@
+{
+  "dest": "dist/installers/",
+  "icon": "resources/icon.png",
+  "categories": [
+    "Network"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}

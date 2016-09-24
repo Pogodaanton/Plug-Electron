@@ -1,0 +1,34 @@
+{
+  "name": "Plug-Electron",
+  "version": "1.0.0",
+  "description": "Enjoy plug.dj as a standalone app, with many great additional funtionalities!",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Plug-Electron --all --out dist/",
+    "deb64": "electron-installer-debian --src dist/Plug-Electron-linux-x64 --arch amd64 --config deb-parameters.json"
+  },
+  "keywords": [
+    "plug dj",
+    "mpris",
+    "music player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pogodaanton/Plug-Electron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pogodaanton/Plug-Electron/issues"
+  },
+  "author": "Pogodaanton",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.3.5",
+    "electron-installer-debian": "^0.3.1",
+    "electron-packager": "^8.0.0",
+    "electron-rebuild": "^1.2.1"
+  },
+  "dependencies": {
+    "mpris-service": "^1.1.1"
+  }
+}
