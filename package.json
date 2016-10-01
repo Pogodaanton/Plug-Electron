@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
+    "rebuild" : "electron-rebuild -f -w mpris-service",
     "build": "electron-packager . Plug-Electron --all --out dist/",
     "deb64": "electron-installer-debian --src dist/Plug-Electron-linux-x64 --arch amd64 --config deb-parameters.json",
     "win64": "electron-installer-windows --src dist/Plug-Electron-win32-x64/ --config win-parameters.json"
