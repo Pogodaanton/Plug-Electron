@@ -28,7 +28,7 @@
     "electron": "^1.4.2",
     "electron-installer-debian": "^0.3.1",
     "electron-installer-windows": "^0.2.0",
-    "electron-packager": "^8.1.0",
+    "electron-packager": "^8.2.0",
     "electron-rebuild": "^1.2.1"
   },
   "dependencies": {
