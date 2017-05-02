@@ -1,4 +1,6 @@
 #Plug-Electron
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Pogodaanton/Plug-Electron.svg)](https://greenkeeper.io/)
 This is a web-wrapper of [plug.dj](http://plug.dj), so you can use it more like a music player and less like a website.
 
 Until now there is the basic app and only small additional features like:
